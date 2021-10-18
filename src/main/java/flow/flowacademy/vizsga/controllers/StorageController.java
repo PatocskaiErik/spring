@@ -23,7 +23,7 @@ public class StorageController {
     }
 
     @GetMapping("/api/storage/address/{id}")
-    public ResponseEntity<?> getStorageAddress(@PathVariable Long id){
+    public ResponseEntity<?> getStorageAddress(@PathVariable Long id) {
 
         var storage = storageService.getStorageById(id);
 
@@ -35,5 +35,4 @@ public class StorageController {
         storageService.deleteStorage(id);
         return ResponseEntity.noContent().build();
     }
-
 }

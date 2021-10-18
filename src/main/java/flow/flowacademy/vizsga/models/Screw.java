@@ -26,6 +26,4 @@ public class Screw {
     @JoinColumn(name = "stable_id")
     @JsonIgnore
     private Storage storage;
-
-
 }

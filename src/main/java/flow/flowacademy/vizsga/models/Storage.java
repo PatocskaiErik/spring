@@ -1,9 +1,7 @@
 package flow.flowacademy.vizsga.models;
 import lombok.*;
-
 import javax.persistence.*;
 import java.util.List;
-
 import static javax.persistence.CascadeType.ALL;
 
 @Entity

@@ -28,5 +28,4 @@ public class StorageService {
     public void deleteStorage(Long id){
         storageRepository.deleteById(id);
     }
-
 }
